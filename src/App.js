@@ -1,5 +1,6 @@
 //import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Chatbot from './chatbot/cahtbot';
 // import Home from './cmp/Home';
 // import About from './cmp/About';
 // import Listing from './cmp/Listing';
@@ -10,7 +11,8 @@ import LoginForm from './component/LoginForm';
 function App() {
   return (
     <div className="App">
-      <LoginForm />
+      {/* <LoginForm /> */}
+      <Chatbot/>
     </div>
   );
 }

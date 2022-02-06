@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.mainform { background:lightblue; max-width: 310px; margin: 50px auto; border-radius:10px; text-align: left; 
+  padding: 30px;}
+.mainform label { display: block; padding: 5px 0;}
+.mainform input { min-height:1.5rem; min-width: 300px; }
+.mainform button { padding: 10px 25px; margin: 20px auto; background: blue; color: #fff; border: 0px; }
+.allresult { background: lightgreen; width:90%; display: block; max-width: 350px; margin: 10px auto;}
+.allresult p { font-size: 16px; font-weight:600; color: #fff; display: inline-block; width: 40%; padding-right: 10px;}
